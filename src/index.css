@@ -1,6 +1,5 @@
 /* -------- Mobile Portrait (small phones) -------- */
 @media (max-width: 600px) and (max-aspect-ratio: 3/4) {
-  /* Example overrides for ALL components */
   body {
     font-size: 14px;
   }
