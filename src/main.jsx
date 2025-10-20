@@ -7,9 +7,8 @@ import Bag from "./routes/Bag";
 import Home from "./routes/Home";
 import { Provider } from "react-redux";
 import myntraStore from "./store/index";
-import Contact from './pages/Login/contact'
+import Contact from "./pages/Login/contact";
 import Wishlist from "./pages/Login/wishlist";
-
 
 const router = createBrowserRouter([
   {
@@ -18,8 +17,8 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/bag", element: <Bag /> },
-      {path: "/Contact", element: <Contact/>},
-      {path: "/Wishlist", element: <Wishlist/>}
+      { path: "/Contact", element: <Contact /> },
+      { path: "/Wishlist", element: <Wishlist /> },
     ],
     // errorElement: <div>Page Not Found!</div>,
   },
